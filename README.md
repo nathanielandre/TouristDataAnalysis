@@ -77,9 +77,8 @@ Which countries send the most visitors that come for education ?
 During the analysis, the following key factors were explored:
 
 Visitor Demographics: Age, gender, and other personal characteristics of Korean visitors.
-Reasons for Visiting: Analyzing the motivations behind tourism visits, such as leisure, business, or family visits.
+Reasons for Visiting: Analyzing the motivations behind tourism visits.
 Peak Seasons: Understanding travel patterns throughout the year to identify the busiest months and trends.
-Geographic Trends: Identifying regional preferences and popular destinations among Korean tourists.
 ```
 
 ## Techniques and Tools
@@ -92,6 +91,6 @@ Tableau: Used to create interactive and visually compelling dashboards that allo
 ```
 
 ## Dashboard
-Model deployed on Hugging face. Deployment file can be found in deployment folder.
+Visitor Insights Dashboard
 
 <a href="https://public.tableau.com/app/profile/nathaniel.andre/viz/VisitorInsightsDashboard/MAINDASHBOARD">Tableau Dashboard</a>
