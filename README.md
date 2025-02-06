@@ -1,16 +1,20 @@
 # Tourist Data Analysis
-## DATA SOURCE
+### This project analyzes tourism data to identify trends and develop strategies aimed at increasing the number of Korean visitors by 20% over the next three years. The analysis utilizes Python for data cleaning and Tableau for visualizing key insights. The goal is to explore factors such as visitor demographics, reasons for visiting, and peak seasons, ultimately contributing to informed decision-making in tourism marketing and strategy.
+
+[View the presentation as PDF](TouristDataAnalysis.pdf)
+
+## Data Source
 ```
 https://www.kaggle.com/datasets/bappekim/south-korea-visitors
 ```
-## INTRODUCTION
+## Introduction
 ```
 This program is created to analyze tourism data to identify trends and create targeted programs that enhance visitor experiences and increase total international visitor numbers.
 ```
 
-## BUSINESS UNDERSTANDING
+## Business Understanding
 
-### BACKGROUND
+### Background
 ```
 Assumed role :
 Data Analyst working at Korea Tourism Organization (KTO).
@@ -20,9 +24,9 @@ Korea government want to increase overall total number of visitors and assign KT
 
 You are a dedicated data analyst at the Korea Tourism Organization (KTO) in Seoul. Recently, the government has set a goal to increase international visitor numbers. Your mission is to analyze tourism data to identify trends and create targeted programs that enhance visitor experiences and increase total international visitor numbers.
 ```
-### SMART AND PROBLEM STATEMENT
+### Smart and Problem Statement
 
-#### SMART ANALYSIS
+#### Smart Analysis
 ```
 Specific
 Improving total visitors with promotion, branding and improving facilities for every purpose based on visitor criteria.
@@ -42,12 +46,12 @@ Time-Bound
 Achieve within 3 years.
 ```
 
-#### PROBLEM STATEMENT
+#### Problem Statement
 ```
 The goal is to increase overall total number of visitors by 20% within 3 years which can be accomplished by expanding facilities, making public transportation more accessible, and offering scholarships.
 ```
 
-#### PROBLEM BREAKDOWN
+#### Problem Breakdown
 ```
 Method : 5W+1H
 
@@ -67,3 +71,27 @@ When do the highest number of visitors come ?
 
 Which countries send the most visitors that come for education ?
 ```
+
+## Data Exploration
+```
+During the analysis, the following key factors were explored:
+
+Visitor Demographics: Age, gender, and other personal characteristics of Korean visitors.
+Reasons for Visiting: Analyzing the motivations behind tourism visits, such as leisure, business, or family visits.
+Peak Seasons: Understanding travel patterns throughout the year to identify the busiest months and trends.
+Geographic Trends: Identifying regional preferences and popular destinations among Korean tourists.
+```
+
+## Techniques and Tools
+```
+Python: Used for data cleaning, preprocessing, and exploratory data analysis (EDA). Key libraries include:
+  - pandas for data manipulation
+  - matplotlib and seaborn for data visualization
+  - numpy for numerical operations
+Tableau: Used to create interactive and visually compelling dashboards that allow for deeper exploration of the data and trends.
+```
+
+## Dashboard
+Model deployed on Hugging face. Deployment file can be found in deployment folder.
+
+<a href="https://public.tableau.com/app/profile/nathaniel.andre/viz/VisitorInsightsDashboard/MAINDASHBOARD">Tableau Dashboard</a>
